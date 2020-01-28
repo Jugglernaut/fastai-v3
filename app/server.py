@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=15Ojoq8WHTd8PPNt8iZqZybpiASSlHOZz'
+export_file_url = 'https://www.dropbox.com/s/5f0798tit6acuzx/export.pkl?dl=1'
 export_file_name = 'export.pkl'
 
 classes = ['baritone', 'bassoon', 'cello', 'clarinet','flute','french horn','guitar','oboe','piano','piccolo','saxophone','trombone','trumpet','tuba', 'violin']
