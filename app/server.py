@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=15Ojoq8WHTd8PPNt8iZqZybpiASSlHOZz'
 export_file_name = 'export.pkl'
 
-classes = ['baritone', 'bassoon', 'cello', 'clarinet','flute','french horn','guitar','oboe','piano','piccolo','saxophone','trombone','trumpet','tuba','violin']
+classes = ['baritone', 'bassoon', 'cello', 'clarinet','flute','french horn','guitar','oboe','piano','piccolo','saxophone','trombone','trumpet','tuba', 'violin']
 path = Path(__file__).parent
 
 app = Starlette()
